@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Menu, X, Download, Code, Sparkles, Award, Users } from 'lucide-react';
-
+import profile5 from '../assets/profile5.png';
+import profile6 from '../assets/profile6.png';
 export default function EnhancedPortfolio() {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -310,10 +311,12 @@ export default function EnhancedPortfolio() {
                   {/* Photo container */}
                   <div className="overflow-hidden relative w-full rounded-full border-4 shadow-2xl transition-all duration-500 aspect-square border-slate-800 shadow-blue-500/20 group-hover:border-blue-500/50 group-hover:scale-105">
                     <img 
-                      src="/profile6.png" 
-                      alt="Oshani Kaveesha" 
-                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
-                    />
+     src={profile6}
+     alt="Oshani Kaveesha" 
+     className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+   />
+
+                    
                   </div>
                   
                   {/* Decorative elements */}
@@ -368,11 +371,16 @@ export default function EnhancedPortfolio() {
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br rounded-2xl blur-xl transition-all duration-500 from-blue-500/20 to-violet-500/20 group-hover:blur-2xl" />
                     <div className="overflow-hidden relative rounded-2xl border-2 shadow-2xl transition-all duration-500 aspect-square border-slate-800 group-hover:border-blue-500/50">
-                      <img
+                      {/* <img
                         src="/profile5.png"
                         alt="About Me"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
-                      />
+                      /> */}
+                      <img
+     src={profile5}
+     alt="About Me"
+     className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+   />
                     </div>
                   </div>
 
