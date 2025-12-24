@@ -276,8 +276,8 @@ export default function EnhancedPortfolio() {
                     Get In Touch
                   </button>
                   <a 
-                  href="/OSHANI_KAVEESHA_CV.pdf" 
-                  download="OSHANI_KAVEESHA_CV.pdf"
+                  href="/Oshani_Kaveesha_Resume.pdf" 
+                  download="Oshani_Kaveesha_Resume.pdf"
                   className="flex gap-2 items-center px-8 py-4 font-medium rounded-xl border-2 backdrop-blur-sm transition-all duration-300 group border-slate-700 hover:border-violet-400 hover:scale-105 bg-slate-900/30"
                   >
                   <Download size={18} className="group-hover:animate-bounce" />
