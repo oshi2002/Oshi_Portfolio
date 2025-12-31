@@ -319,10 +319,10 @@ export default function EnhancedPortfolio() {
                   {/* Photo container */}
                   <div className="overflow-hidden relative w-full rounded-full border-4 shadow-2xl transition-all duration-500 aspect-square border-slate-800 shadow-blue-500/20 group-hover:border-blue-500/50 group-hover:scale-105">
                     <img 
-     src={profile6}
-     alt="Oshani Kaveesha" 
-     className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
-   />
+                        src={profile6}
+                        alt="Oshani Kaveesha" 
+                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+                    />
 
                     
                   </div>
@@ -921,7 +921,7 @@ export default function EnhancedPortfolio() {
                         Eaquasl- Automating The Farm Licensing Process Through A Farm Management System For Sri Lanka's Ornamental Fish Industry
                       </h4>
                       <p className="mb-2 italic font-medium text-violet-400">
-                        Lanka Nippon BizTech Institute (LNBTI), Maharagama
+                        JASPER 2025 Research Simposium offered by Lanka Nippon BizTech Institute (LNBTI), Maharagama
                       </p>
                       <p className="mb-4 font-medium text-blue-400">
                         Published: 26/09/2025
