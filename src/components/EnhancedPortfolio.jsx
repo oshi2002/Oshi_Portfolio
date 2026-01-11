@@ -549,7 +549,7 @@ export default function EnhancedPortfolio() {
                 title: "CeylonTourMate",
                 subtitle: "Travel Agency Management",
                 description: "Full-stack tourist travel agency management system with booking, itinerary planning, and customer management features.",
-                tech: ["React", "Node.js", "PostgreSQL", "Express"],
+                tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
                 image: "✈️",
                 gradient: "from-emerald-500 to-teal-500"
               },
