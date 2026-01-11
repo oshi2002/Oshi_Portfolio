@@ -541,7 +541,7 @@ export default function EnhancedPortfolio() {
                 title: "eAquaSL",
                 subtitle: "Fish Farm Licensing System",
                 description: "Automated ornamental fish farm licensing, farm registrations, and management of active/inactive farmers in Sri Lanka using Django & PostgreSQL.",
-                tech: ["Django", "PostgreSQL", "Python", "REST API"],
+                tech: ["Django", "PostgreSQL", "Python", "Tailwind CSS"],
                 image: "🐠",
                 gradient: "from-cyan-500 to-blue-500"
               },
